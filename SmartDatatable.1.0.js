@@ -189,7 +189,9 @@ function _SmartDatatable(instance,columns,dataSource,configs){
   { 
     log('-- function load() --');
     oRef.searchRequest = '';
-    //oRef.configs.datatable.paginator.setState({recordOffset:1});
+    if(oRef.paginator != null){
+      oRef.configs.datatable.paginator.setState({recordOffset:1});
+    }
     this.oDatatable.load({request:_getParams(true)});
   }
 

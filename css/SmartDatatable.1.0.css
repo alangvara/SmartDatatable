@@ -1,0 +1,4 @@
+.smart_dt_toolbar{color:#fff; padding:5px; background: url("img/bg.jpg"); text-align:left;}
+.smart_dt_bottombar{height:35px; background: url("img/bg.jpg");}
+.smart_dt_searchbox{float:left; width:171px; padding:2px 0px 2px 2px; background:url("img/search.png") no-repeat #fff 100% 50% ;}
+.yui-skin-sam .smart_dt_paginator{padding:5px; text-align:right; margin:0px; float:right;}
